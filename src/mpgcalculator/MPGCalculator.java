@@ -3,7 +3,7 @@ package mpgcalculator;
 /******************************************************************************
 * MPGCalculator.java 
 * Programmer: @author jcboyd
-* Version: 1.0
+* Version: 2.0
 * Course: SDEV 2210
 * This program uses a simple Miles Per Gallon calculator to practice unit 
 * testing
@@ -31,3 +31,5 @@ public class MPGCalculator {
     } //end main
     
 } //end class MPGCalculator
+
+
