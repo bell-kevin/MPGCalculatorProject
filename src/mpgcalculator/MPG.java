@@ -3,7 +3,7 @@ package mpgcalculator;
 /******************************************************************************
 * MPG.java 
 * Programmer: @author jcboyd
-* Version: 1.0
+* Version: 2.0
 * Course: SDEV 2210
 * This program is associated with MPGCalculator.java 
 ******************************************************************************/
@@ -19,18 +19,47 @@ public class MPG {
         this.gallons = gallons;
         totalMiles += miles;
         totalGallons += gallons;
-        numTrips =+ 1;
+        numTrips += 1;
         this.mpg = this.miles / this.gallons;
+        totalMPG = totalMiles / totalGallons;
     } //end MPG constructor
     
+    public double getMiles() {
+        return this.miles;
+    } //end getMiles
+    
+    public double getGallons() {
+        return this.gallons;
+    } //end getGallons
+    
+    public double getMPG() {
+        return this.mpg;
+    } //end getMPG
+    
+    public double getTotalMiles() {
+        return MPG.totalMiles;
+    } //end getTotalMiles
+    
+    public double getTotalGallons() {
+        return MPG.totalGallons;
+    } //end getTotalGallons
+    
+    public int getNumTrips() {
+        return MPG.numTrips;
+    } //end getNumTrips
+        
+    public double getTotalMPG() {
+        return MPG.totalMPG;
+    } //end getTotalMPG
+
     public void displayCurrentMPG() {
         System.out.printf("This trip = %-5.2f MPG\n", this.mpg);
     } //end displayCurrentMPG
     
     public static void displayTotalMPG() {
-        totalMPG = totalMiles / totalGallons;
         System.out.printf("For %-1d trips, total MPG = %-6.2f\n",
                 numTrips, totalMPG);
     } //end displayTotalMPG
     
 } //end class MPG
+
