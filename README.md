@@ -1,4 +1,4 @@
-# MPGCalculator
+# Miles Per Gallon Calculator
 SDEV 1060 Project. 
 
 This project calculates miles per gallon (MPG) for a single trip, and for all trips entered. There is a class for MPG for a single trip, with instance variables for miles, gallons, and MPG for that trip. In addition, there are class (static) variables for total miles, total gallons, total MPG, and number of trips. In the main class, several trips are created and the values are displayed. At the end, the total MPG (total miles / total gallons) is displayed.
