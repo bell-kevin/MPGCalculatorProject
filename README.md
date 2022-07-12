@@ -6,6 +6,7 @@ This project calculates miles per gallon (MPG) for a single trip, and for all tr
 Trip 1: miles = 320, gallons = 29
 Trip 2: miles = 325.8, gallons = 32.1
 Trip 3: miles = 412.5, gallons = 35
+
 Trip 4: miles = 345, gallons = 32.6
 
 In this assignment, you will walk through adding unit testing to that project. All the numbers will be hard-coded, to test the methods without any concern about user input.  Create a new project; add a class called MPG; add the code for the Main class.
